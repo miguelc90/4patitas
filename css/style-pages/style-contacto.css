@@ -1,0 +1,66 @@
+/*CONTACTO*/
+h1{
+    text-align: left;
+    margin-left: 16%;
+}
+/*CONTAINER-FORM*/
+.container-form{
+    width: 50%;
+    height: auto;
+}
+
+/*FORM*/
+input[type="text"], [type="tel"], [type="email"], select, textarea{
+    display: block;
+    width: 99%;
+    height: 30px;
+    border-style: none;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+ textarea{
+    resize: none;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"]{
+    margin-left: 18%;
+}
+
+.container-form p{
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.container-form a{
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.container-form button{
+    display: block;
+    width: 30%;
+    height: 30px;
+    margin-left: 35%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    border: none;
+    background-color: #ff00ff;
+}
+
+.container-form button:hover{
+    background-color: hsl(248, 53%, 58%);
+    color: hsl(39, 77%, 83%);
+}
+
+.image-dog-form{
+    width: 45%;
+    float: right;
+    margin-right: 1%;
+    margin-top: -42%;
+}
+
+
+
+

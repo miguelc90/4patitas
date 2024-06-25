@@ -1,0 +1,130 @@
+
+/*-----HOME--------*/
+body{
+    background-image: linear-gradient(to right bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+/*-----Logos-----*/
+img{
+    width: 100%;
+    object-fit: cover;
+}
+section{
+    margin-top: 10px;
+}
+
+.container-logo{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+    margin-top: 30px;
+}
+
+.container-logo img{
+    height: 100%;
+}
+
+.logo-center{
+    width: 65%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+    border-radius: 100px;
+    border: 2px solid rgb(255, 0, 119);
+}
+
+/*-----Nav Bar-----*/
+.container-nav{
+    width: 98.8%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    margin: 0;
+    background-color: rgb(42, 106, 165);
+}
+
+.container-nav a{
+    margin-left: 8%;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+.container-nav a:hover{
+    color: rgb(233, 113, 44);
+}
+
+/*banner-principal*/
+.banner-principal{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*----Main----*/
+h1, h2, h3{
+    text-align: center;
+    font-family: "Gwendolyn", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    font-size: 68px;
+    margin-top: -5px;
+}
+
+h2{
+    font-size: 48px;
+}
+
+h3{
+    font-size: 38px;
+}
+
+h4{
+    font-family: "Gwendolyn", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 38px;
+    margin-left: 10%;
+    margin-bottom: 1%;
+}
+
+p{
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 26px;
+    margin-top: -20px;
+}
+
+/*------HOME Footer-------*/
+.container-footer{
+    width: 99%;
+    height: auto;
+    padding: 5px;
+    background-color: lightslategray;
+}
+
+.container-footer img{
+    width: 6%;
+    margin-left: 2%;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.container-footer img:hover{
+    width: 7%;
+}
+
+.container-footer footer{
+    margin-left: 41%;
+}
+
+.container-footer p{
+    text-align: center;
+    margin-top: 0;
+}
